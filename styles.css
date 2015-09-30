@@ -1,0 +1,103 @@
+/* CSS reset - best to start from scratch */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; }
+
+ol, ul, li { list-style: none; }
+
+/***************************************************
+ these tags below have to be declared as block level elements
+for browsers to render them (E.g - bloody IE!)
+****************************************************/
+
+
+header, nav, footer, section { display: block; }
+
+/**********************/
+
+
+body { background-color: #eee; font-family: Verdana, Geneva, sans-serif; font-size: 12px; background-image: url(images/paper_bg.jpg); }
+
+#wrapper { width: 100%; height: 1000px; background-image: url(images/top-bg.jpg); background-repeat: repeat-x; background-position: center top; }
+
+header { width: 960px; margin: 0 auto; }
+
+h1.logo { width: 174px; height: 82px; background: url('images/logo.png'); text-indent: 100%; white-space: nowrap; overflow: hidden; }
+
+.myfont { font-family: 'Archivo Narrow', "Arial Narrow", sans-serif; }
+
+nav { width: 918px; height: 25px; background-color: #393939;  text-align: left; margin:10px; padding: 5px 10px 5px 10px;}
+
+#hodge-slider { padding: 6px; height: 424px; width: 926px; background-color: #999; margin-top: 0px; margin-right: auto; margin-bottom: 10px; margin-left: auto; }
+
+nav li { display: block; float: left;; font-size: 17px; text-transform: uppercase; }
+
+nav li a { text-decoration: none; padding-right: 20px; color: #999; font-weight: 400; font-variant: uppercase; }
+
+nav li a:hover { color: #CCC; }
+
+li { position: relative; display: inline-block; }
+
+li a { display: inline-block }
+
+li ul { display: none; position: absolute; top: 1em; }
+
+li:hover ul { display: block; width: 240px; background: #0c785c; margin-top: 5px; left: 5px; height: 140px; visibility: visible; z-index: 9999; }
+
+li li { display: block; }
+
+li li a:hover { color: #393939 !important; }
+
+li li a { color: #ffffff; text-decoration: none; }
+
+.current { color: #CCC; }
+
+#latest_line { margin: 25px 0 0 25px; }
+
+section {
+	width: 938px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.floating-head {
+	position: relative;
+	z-index: 5;
+	top: -65px;
+	left: 20px;
+}
+
+
+#tag_line { float: left; margin: 60px 0 0 20px; }
+
+.client { font-size: 13px; float: right; margin-top: 50px; color: #693; }
+
+aside { background: url('images/sidebar_design.png') no-repeat; float: right; height: 495px; width: 353px; margin: 30px 30px 120px 0; }
+
+footer { background: url('images/footer_bg.png')repeat-x; width: 960px; height: 229px; clear: both; }
+
+#footer_logo { float: right; margin: 100px 50px; font-size: 9px; }
+
+#HTML5_Logo { background: url('images/HTML5_Logo.png')no-repeat; height: 64px; width: 64px; float: left; margin: 100px 50px; }
+#hodge-bar {
+	background-color: #393939;
+	height: 80px;
+	width: 100%;
+	/* [disabled]background-image: url(images/feature-bg.jpg); */
+	padding-top: 30px;
+	border-bottom: 1px solid black;
+}
+#hodge-bar p {
+	font-size: 16px;
+	color: #FFF;
+	font-weight: lighter;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-left: 160px;
+}
+#hodge-bar h1 {
+	font-size: 16px;
+	color: #f4aa00;
+	font-weight: lighter;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-left: 160px;
+}
